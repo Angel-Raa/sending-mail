@@ -36,9 +36,9 @@ curl --location 'localhost:2020/mail/sendMessage' \
 }'
 ```
 ### Expected Response
-
+```
 {
     "message": "Message sent successfully",
     "httpStatus": "OK"
 }
-
+```
