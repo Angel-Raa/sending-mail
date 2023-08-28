@@ -53,9 +53,9 @@ Este endpoint envía un correo electrónico con un archivo adjunto.
 
 | Parámetro    | Descripción                          |
 |--------------|--------------------------------------|
-| `toUser`     | Lista de destinatarios del correo.   |
-| `subject`    | Asunto del correo electrónico.       |
-| `message`    | Cuerpo del correo electrónico.       |
+| `toUser`     | Lista de destinatarios del correo    |
+| `subject`    | Asunto del correo electrónico        |
+| `message`    | Cuerpo del correo electrónico        |
 | `attachment` | Archivo adjunto del correo (opcional)|
 
 **Respuestas:**
@@ -69,9 +69,9 @@ Este endpoint envía un mensaje de correo electrónico.
 
 | Parámetro    | Descripción                          |
 |--------------|--------------------------------------|
-| `toUser`     | Lista de destinatarios del correo.   |
-| `subject`    | Asunto del correo electrónico.       |
-| `message`    | Cuerpo del correo electrónico.       |
+| `toUser`     | Lista de destinatarios del correo    |
+| `subject`    | Asunto del correo electrónico        |
+| `message`    | Cuerpo del correo electrónico        |
 
 **Respuestas:**
 
