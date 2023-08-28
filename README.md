@@ -46,28 +46,35 @@ curl --location 'localhost:2020/mail/sendMessage' \
 ```
 
 ### Documentación de los Endpoints
-Endpoint /mail/sendEmailFile
+
+#### Endpoint `/mail/sendEmailFile`
+
 Este endpoint envía un correo electrónico con un archivo adjunto.
 
-Parámetros:
+**Parámetros:**
 
-toUser: Lista de direcciones de correo electrónico de los destinatarios.
-subject: Asunto del correo electrónico.
-message: Cuerpo del correo electrónico.
-attachment: Archivo adjunto del correo electrónico.
-Respuestas:
+- `toUser`: Lista de direcciones de correo electrónico de los destinatarios.
+- `subject`: Asunto del correo electrónico.
+- `message`: Cuerpo del correo electrónico.
+- `attachment`: Archivo adjunto del correo electrónico.
 
-message: Mensaje de confirmación de que el correo electrónico se ha enviado correctamente.
-httpStatus: Código de estado HTTP de la respuesta.
-Endpoint /mail/sendMessage
+**Respuestas:**
+
+- `message`: Mensaje de confirmación de que el correo electrónico se ha enviado correctamente.
+- `httpStatus`: Código de estado HTTP de la respuesta.
+
+#### Endpoint `/mail/sendMessage`
+
 Este endpoint envía un mensaje de correo electrónico.
 
-Parámetros:
+**Parámetros:**
 
-toUser: Lista de direcciones de correo electrónico de los destinatarios.
-subject: Asunto del correo electrónico.
-message: Cuerpo del correo electrónico.
-Respuestas:
+- `toUser`: Lista de direcciones de correo electrónico de los destinatarios.
+- `subject`: Asunto del correo electrónico.
+- `message`: Cuerpo del correo electrónico.
 
-message: Mensaje de confirmación de que el correo electrónico se ha enviado correctamente.
-httpStatus: Código de estado HTTP de la respuesta.
+**Respuestas:**
+
+- `message`: Mensaje de confirmación de que el correo electrónico se ha enviado correctamente.
+- `httpStatus`: Código de estado HTTP de la respuesta.
+
