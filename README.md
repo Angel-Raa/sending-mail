@@ -52,10 +52,12 @@ Este endpoint envía un correo electrónico con un archivo adjunto.
 
 **Parámetros:**
 
-- `toUser`: Lista de direcciones de correo electrónico de los destinatarios.
-- `subject`: Asunto del correo electrónico.
-- `message`: Cuerpo del correo electrónico.
-- `attachment`: Archivo adjunto del correo electrónico.
+| Parámetro    | Descripción                          |
+|--------------|--------------------------------------|
+| `toUser`     | Lista de destinatarios del correo.   |
+| `subject`    | Asunto del correo electrónico.       |
+| `message`    | Cuerpo del correo electrónico.       |
+| `attachment` | Archivo adjunto del correo (opcional)|
 
 **Respuestas:**
 
