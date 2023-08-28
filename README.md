@@ -5,7 +5,6 @@ Este proyecto demuestra cómo enviar correos electrónicos utilizando Spring Boo
 ## Requisitos
 
 - Java 17
-- Spring Boot 3
 - Conexión a internet para el envío de correos electrónicos
 
 ## Instalación y Configuración
