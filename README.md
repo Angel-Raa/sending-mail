@@ -77,3 +77,11 @@ Este endpoint envía un mensaje de correo electrónico.
 - `message`: Mensaje de confirmación de que el correo electrónico se ha enviado correctamente.
 - `httpStatus`: Código de estado HTTP de la respuesta.
 
+## Recursos Adicionales
+
+Aquí hay algunos recursos adicionales que podrían ser útiles:
+
+- [Documentación de  Java Mail Sender](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/mail/javamail/JavaMailSender.html)
+- [Documentacion de open jdk 17](https://docs.oracle.com/en/java/javase/17/docs/api/)
+- [Documentacion de Spring boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
+- [Documentacion de Maven](https://maven.apache.org/guides/getting-started/)
