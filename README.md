@@ -1,4 +1,4 @@
-# Sending Mail with Spring Boot and Java Mail Sender
+# Envío de Correos Electrónicos con Spring Boot y Java Mail Sender
 
 Este proyecto demuestra cómo enviar correos electrónicos utilizando Spring Boot y Java Mail Sender. Proporciona endpoints que permiten enviar correos electrónicos con contenido de archivo adjunto o simplemente mensajes de texto.
 
@@ -12,6 +12,8 @@ Este proyecto demuestra cómo enviar correos electrónicos utilizando Spring Boo
 
 1. git clone `https://github.com/Angel-Raa/sending-mail-with-spring-boot.git`.
 2. cd `sending-mail-with-spring-boot`.
+3. Construya el proyecto `mvn clean install`
+4. Ejecute la aplicación Spring Boot: `vn spring-boot:run`
    
 
 ## Uso
@@ -42,3 +44,30 @@ curl --location 'localhost:2020/mail/sendMessage' \
     "httpStatus": "OK"
 }
 ```
+
+### Documentación de los Endpoints
+Endpoint /mail/sendEmailFile
+Este endpoint envía un correo electrónico con un archivo adjunto.
+
+Parámetros:
+
+toUser: Lista de direcciones de correo electrónico de los destinatarios.
+subject: Asunto del correo electrónico.
+message: Cuerpo del correo electrónico.
+attachment: Archivo adjunto del correo electrónico.
+Respuestas:
+
+message: Mensaje de confirmación de que el correo electrónico se ha enviado correctamente.
+httpStatus: Código de estado HTTP de la respuesta.
+Endpoint /mail/sendMessage
+Este endpoint envía un mensaje de correo electrónico.
+
+Parámetros:
+
+toUser: Lista de direcciones de correo electrónico de los destinatarios.
+subject: Asunto del correo electrónico.
+message: Cuerpo del correo electrónico.
+Respuestas:
+
+message: Mensaje de confirmación de que el correo electrónico se ha enviado correctamente.
+httpStatus: Código de estado HTTP de la respuesta.
