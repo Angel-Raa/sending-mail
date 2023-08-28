@@ -5,6 +5,7 @@ Este proyecto demuestra cómo enviar correos electrónicos utilizando Spring Boo
 ## Requisitos
 
 - Java 17
+- Maven 
 - Conexión a internet para el envío de correos electrónicos
 
 ## Instalación y Configuración
