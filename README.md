@@ -7,6 +7,7 @@ Este proyecto demuestra cómo enviar correos electrónicos utilizando Spring Boo
 - Java 17
 - Maven 
 - Conexión a internet para el envío de correos electrónicos
+- Cuenta de correo electrónico válida con credenciales para enviar correos electrónicos a través del servidor SMTP
 
 ## Instalación y Configuración
 
