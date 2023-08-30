@@ -16,15 +16,15 @@ Este proyecto demuestra cómo enviar correos electrónicos utilizando Spring Boo
 ```
 git clone https://github.com/Angel-Raa/sending-mail-with-spring-boot.git
 ```
-2. Navegue al directorio del proyecto recién clonado:
+2. Navegue al directorio del proyecto recién clonado
 ```
 cd sending-mail-with-spring-boot
 ```
-3. Construya el proyecto ejecutando el siguiente comando de Maven:
+3. Construya el proyecto ejecutando el siguiente comando de Maven
 ```
 mvn clean install
 ```
-4. Inicie la aplicación Spring Boot con el siguiente comando:
+4. Inicie la aplicación Spring Boot con el siguiente comando
 ```
 mvn spring-boot:run
 ```   
